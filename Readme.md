@@ -26,7 +26,7 @@ source env/bin/activate
 python main.py
 ```
 
-## Description of the Trivia game
+## Description of the Trivia game
 
 We have some questions and options, and you will have to choose the right option.
 At the end, you will see your puntuation, giving you the feedback you need.
