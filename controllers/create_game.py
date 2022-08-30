@@ -48,9 +48,10 @@ class GameController(Game):
                 self.puntuation = self.puntuation + 1
             else:
                 print("\nResult: Is not correct, the option {0} is the right choice, because: {1}"
-                    .format(question.correct_option, question.option_exp))  
+                    .format(question.correct_option, question.option_exp))
+            print_transition("\n\nPress a key to continue ....")
 
-        print_transition("\n\nPress a key to know your puntuation ....")
+        print_transition("\n\nPress a key to know your punctuation ....")
 
         self.get_puntuation()
 
