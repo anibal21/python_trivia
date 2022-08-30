@@ -30,5 +30,21 @@ HARD_DATA = [
         (3, "A programming language, and also a scripting language")
     ], 
     3, "Python is a programming lenguage, but is a scripting language too,\n" \
-                                        "because is a interpreted language"),
+        "because is a interpreted language"),
+    ("H4",
+    "Talking about polymorphism :\n" \
+    "I-Method and operators overriding are Polymorphism\n" \
+    "II-Duck Typing is not supported in Python\n" \
+    "III-Polymorphism in Python is used with Inheritance, and is the ability of an object\n" \
+    "to take many forms.\n" \
+    "Which option is correct?\n",
+    [
+        (1, "I, II"),
+        (2, "II,III"),
+        (3, "Only III"),
+        (4, "I, II, III")
+    ], 
+    2, "Polymorphism in Python in the ability of an object to take many forms,\n" \
+        "so we can perform the same action in many different ways. Besides, it supports\n" \
+        "method and attribute overrriding and duck typing."),
 ]
